@@ -1,0 +1,22 @@
+body {
+    background-color: #dad6ca;
+}
+header {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #563444;
+    box-sizing: border-box;
+}
+header{
+    background-color:#1bb0ce;
+}
+section {
+    background: #dad6ca;
+    
+}
+*{
+    font-family: sans-serif;
+}
