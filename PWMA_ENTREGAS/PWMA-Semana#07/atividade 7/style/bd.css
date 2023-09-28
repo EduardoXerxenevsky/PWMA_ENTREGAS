@@ -43,3 +43,10 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #ddd;
 }
+.online {
+    color: green;
+}
+
+.offline {
+    color: red;
+}
