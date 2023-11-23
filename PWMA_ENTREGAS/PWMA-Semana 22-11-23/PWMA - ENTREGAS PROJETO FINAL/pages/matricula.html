@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculdade</title>
+    <link rel="stylesheet" type="text/css" href="../style/rematricula.css">
+</head>
+<body>
+    <button id="botaoMatricula">Clique para Matricular</button>
+</body>
+</section>
+<script>
+    document.getElementById("botaoMatricula").addEventListener("click", matricula);
+
+function matricula() {
+    var h1 = document.createElement("h1");
+    var texto = document.createTextNode("Matrícula concluída com sucesso.");
+    h1.appendChild(texto);
+    document.body.appendChild(h1);
+}
+</script>
+</html>
